@@ -24,3 +24,13 @@ Como entregar este teste
 -----
 
 Você deve forkar este projeto em sua própria conta do GitHub e fazer o commit em seu próprio repositório.
+
+
+Como rodar o projeto
+----
+1. Baixe o projeto e abra no cmd a pasta do projeto;
+2. Crie uma venv com o comando python -m venv nome_da_venv;
+3. Ative a venv digitando : nome_da_venv\Scripts\activate;
+4. Importe as bibliotecas do projeto com pip install -r requirements.txt;
+5. Com a venv ativada, digite no cmd: python main.py;
+6. Digite o endereço da url com seu respectivo paramêtro  em um navegador ou se desejar no postman.
