@@ -15,7 +15,7 @@ def cpf(cpf):
     # se digitou alguma string em vez de apenas números inteiros, retornar RUNNING.
     if cpf.isdigit() == False or len(cpf) > 11 or len(cpf) < 11 :
         
-        resposta = jsonify(cpf = cpf, estado = 'RUNNING'), 406
+        resposta = jsonify(message = 'cpf inválido', estado = 'RUNNING'), 406
         
     
     else:
